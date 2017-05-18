@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace UITest.Page_Objects
 {
@@ -23,20 +24,20 @@ namespace UITest.Page_Objects
         public MailBox(string userName, IWebDriver driver)
         {       
             this.driver = driver;
-
             UserEmailAddress = new MailAddress(userName);
         }
 
         public void GetActivationEmail()
         {
-            driver.Url = USER_MAILBOX_URL_PREFIX + UserEmailAddress.User + USER_MAILBOX_URL_POSTFIX;
+            Thread.Sleep(4000);
+            driver.Url = USER_MAILBOX_URL_PREFIX + UserEmailAddress.User + USER_MAILBOX_URL_POSTFIX;     
             driver.FindElement(By.XPath("//*[contains(text(),'" + ACTIVATION_EMAIL_SUBJECT + "')]")).Click();
         }
         public string GetActivationLink()
         {
             var iframeSwitch = driver.FindElement(By.Id(MAIL_FRAME));
             driver.SwitchTo().Frame(iframeSwitch);
-            System.Threading.Thread.Sleep(2000);
+            Thread.Sleep(2000);
             Regex regex = new Regex(@"activationGuid=\w+");
             Match match = regex.Match(driver.PageSource);
             return ACTIVATION_SUBSTRING + match.Value;

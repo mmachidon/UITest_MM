@@ -9,13 +9,14 @@ namespace UITest.Base_Components
     public class InputData
     {
         public static User user;
-        public InputData()
+        public User SetUser()
         {
             user = new User();
             user.FirstName = "First Name";
             user.LastName = "Surname";
             user.Password = "Infonet123";
             user.SetUserLoginName();
+            return user;
         }
     }
 }

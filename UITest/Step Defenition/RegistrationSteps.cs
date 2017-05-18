@@ -17,16 +17,15 @@ namespace UITest
         [Binding]       
         public class RegistrationSteps
         {
-            public static IWebDriver driver;
-            public static InputData inputData;
+
             public static User user;
+            public static IWebDriver driver;
 
             [Given(@"I am a User")]
             public void GivenIAmAUser()
             {
-                driver = new InternetExplorerDriver();
-                inputData =new InputData();
-                user = InputData.user;
+                driver = Config.SetWebDriver();            
+                user = Config.inputData.SetUser();
             }
 
             [When(@"I submit a email to Registration Form")]

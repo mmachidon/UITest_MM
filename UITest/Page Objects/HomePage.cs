@@ -28,7 +28,7 @@ namespace UITest.Page_Objects
             get
             {
                 if (userNameHeader == null)
-                    userNameHeader = driver.FindElement(By.XPath(USERNAME_HEADER + UserSurname + " " + UserFirstName + "')]"));
+                    userNameHeader = driver.FindElement(By.XPath(USERNAME_HEADER + " '" + UserSurname + " " + UserFirstName + "')]"));
                 return userNameHeader;
             }
 
