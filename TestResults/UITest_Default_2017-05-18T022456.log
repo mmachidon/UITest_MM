@@ -1,0 +1,22 @@
+﻿Appdomain Disposed
+Test Suite Dump
+#0: UITest/Default - 
+#1: Default - 
+#3: UITest - 
+#4: UITest.RegistrationFeature - 
+#5: RegistrationCheck - TestAssembly:UITest/TestClass:UITest.RegistrationFeature/TestMethod:RegistrationCheck
+End: Test Suite Dump
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Thread #0: creating new test thread executor for UITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Mashe4ka\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #5/0 is started on thread #0
+Test #5 is finished on thread #0 as InitializationFailed within 6,6253494 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

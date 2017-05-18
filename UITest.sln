@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest", "UITest\UITest.csproj", "{DA17A100-6A52-4975-A7AC-968ADC6933CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA17A100-6A52-4975-A7AC-968ADC6933CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA17A100-6A52-4975-A7AC-968ADC6933CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA17A100-6A52-4975-A7AC-968ADC6933CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA17A100-6A52-4975-A7AC-968ADC6933CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

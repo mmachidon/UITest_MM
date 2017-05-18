@@ -1,0 +1,70 @@
+﻿Appdomain Disposed
+Test Suite Dump
+#0: UITest/Default - 
+#1: Default - 
+#3: UITest - 
+#4: UITest.RegistrationFeature - 
+#5: RegistrationCheck - TestAssembly:UITest/TestClass:UITest.RegistrationFeature/TestMethod:RegistrationCheck
+End: Test Suite Dump
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Thread #0: creating new test thread executor for UITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Mashe4ka\Documents\Visual Studio 2015\Projects\UITest\packages\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #5/0 is started on thread #0
+T:Given I am a User
+T:-> error: The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+T:When I submit a email to Registration Form
+T:-> skipped because of previous errors
+T:And submit all required fields
+T:-> skipped because of previous errors
+T:And I activate newly created account
+T:-> skipped because of previous errors
+T:And I login to application
+T:-> skipped because of previous errors
+T:Then I see home page
+T:-> skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 2,8582541 seconds
+Test #5/1 is started on thread #0
+T:Given I am a User
+T:-> error: The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+T:When I submit a email to Registration Form
+T:-> skipped because of previous errors
+T:And submit all required fields
+T:-> skipped because of previous errors
+T:And I activate newly created account
+T:-> skipped because of previous errors
+T:And I login to application
+T:-> skipped because of previous errors
+T:Then I see home page
+T:-> skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 0,0180065 seconds
+Test #5/2 is started on thread #0
+T:Given I am a User
+T:-> error: The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+T:When I submit a email to Registration Form
+T:-> skipped because of previous errors
+T:And submit all required fields
+T:-> skipped because of previous errors
+T:And I activate newly created account
+T:-> skipped because of previous errors
+T:And I login to application
+T:-> skipped because of previous errors
+T:Then I see home page
+T:-> skipped because of previous errors
+Test #5 is finished on thread #0 as Failed within 0,0190133 seconds
+Appdomain Disposed
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

@@ -1,0 +1,35 @@
+﻿VS filter: testpath:TestAssembly:UITest/TestClass:UITest.RegistrationFeature/TestMethod:RegistrationCheck
+Discovering target: Default
+Discovering tests from assembly: c:\Users\Mashe4ka\Documents\Visual Studio 2015\Projects\UITest\UITest\bin\Debug\UITest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UITest/Default - 
+#1: Default - 
+#3: UITest - 
+#4: UITest.RegistrationFeature - 
+#5: RegistrationCheck - TestAssembly:UITest/TestClass:UITest.RegistrationFeature/TestMethod:RegistrationCheck
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Mashe4ka\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #5/0 is finished on thread #0 as InitializationFailed within 8,3688842 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
