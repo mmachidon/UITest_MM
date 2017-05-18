@@ -96,6 +96,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base Components\ElementLocator.cs" />
     <Compile Include="Base Components\InputData.cs" />
     <Compile Include="Base Components\User.cs" />
     <Compile Include="Base Components\Hooks1.cs" />
